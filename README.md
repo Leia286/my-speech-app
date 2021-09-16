@@ -1,6 +1,8 @@
 # my-speech-app
 
 This project is built with html, bootstrap and javascript.
+
+
 It is a simple text to speech app that accepts texts as input and reads the text with a specific voice, tone, rate and pitch
 
 ## Acknowledgement
