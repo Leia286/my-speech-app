@@ -16,6 +16,11 @@
             width: 300px;
             border-radius: 50%;
         }
+        #error{
+            color: red;
+            margin-top: -12px;
+            display: none;
+        }
     </style>
 </head>
 
@@ -27,6 +32,7 @@
                     <div class="form-group">
                         <textarea name="" id="text-input" class="form-control form-control-lg" placeholder="Type Anything"></textarea>
                     </div>
+                    <span id="error">Please type in a sentence in the form</span>
                     <div class="form-group">
                         <label for="rate">Rate</label>
                         <div id="rate-value" class="badge badge-primary float-right">1</div>
