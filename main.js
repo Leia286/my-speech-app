@@ -81,6 +81,9 @@ const speak = () => {
 
 
     }
+    if(textInput.value == '' || textInput.value === undefined){
+        alert('please type something')
+    }
 
 }
 
