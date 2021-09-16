@@ -72,9 +72,13 @@ const speak = () => {
     // speak
     synth.speak(speakText);
   }
-  if (textInput.value == "" || textInput.value === undefined) {
+  else if(textInput.value == "" || textInput.value === undefined) {
     errorMsg.style.display = "block";
   }
+  else { 
+      errorMsg.style.display = "none"
+  }
+  
 };
 
 // event listenner
